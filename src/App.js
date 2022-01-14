@@ -1,8 +1,8 @@
 
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
-import Home from './pages/Home';
-import Tickets from './pages/Tickets';
+import Home from './Pages/Home';
+import Tickets from './Pages/Tickets';
 
 function App() {
   return (
