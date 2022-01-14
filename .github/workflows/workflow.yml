@@ -5,8 +5,8 @@ on:
     branches:
       - "master"
 
-job:
-  build:
+jobs:
+  build-and-deploy:
     runs-on: ubuntu-lastest
 
   strategy:
@@ -15,7 +15,7 @@ job:
 
   steps:
     - name: Chekout
-      uses: actions/Checkout@v1
+      uses: actions/Checkout@v2
 
     - name: Install and build
       run: npm install && npm run build
