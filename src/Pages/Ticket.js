@@ -13,7 +13,7 @@ function Ticket() {
             <button
                 onClick={
                     () => {
-                        navigate("/about")
+                        navigate("/tickets")
                     }
                 }
             >
