@@ -22,8 +22,6 @@ function Tickets() {
     }, [])
 
     const addUser = async () =>{
-        console.log("presionado");
-
         // Add a new document with a generated id.
         const docRef = await addDoc(collection(db, "tickets"), {
             name: "Random 3",
